@@ -1,0 +1,152 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #7143b6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto 300px;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 100px 20px;
+}
+
+.bio,
+.about-me,
+.my-education,
+.my-interests {
+    text-align: justify;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.download-resume {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.skills-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-content li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
